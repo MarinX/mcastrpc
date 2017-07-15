@@ -1,17 +1,17 @@
-#Multicast JSON RPC Server
+# Multicast JSON RPC Server
 
-#Description
+# Description
 Multicast JSON RPC server
 
-#Installation
+# Installation
     go get github.com/MarinX/mcastrpc
-#Notes
+# Notes
 * Multicast cannot be used in any sort of cloud, or shared infrastructure environment
 * Tested only on Linux
 * Be sure to run client on other PC, because address on network cannot be same
 
 
-#Example
+# Example
     package main
 
     import (
@@ -51,11 +51,12 @@ Multicast JSON RPC server
 	    return nil
     }
 
-#TODO
+# TODO
 * Create multicast client
 
 
-#License
+# License
 This library is under the MIT License
-#Author
+
+# Author
 Marin Basic 
